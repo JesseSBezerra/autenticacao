@@ -9,3 +9,10 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+
+security:
+  jwt:
+    expiracao:  30
+    chavate-assinatura: YW1vIHRyYWJhbGhhciBuYSBtdg==
